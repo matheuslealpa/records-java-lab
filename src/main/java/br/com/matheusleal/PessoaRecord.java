@@ -1,4 +1,6 @@
 package br.com.matheusleal;
 
-public record PessoaRecord() {
+import java.time.LocalDate;
+
+public record PessoaRecord(String nome, Long id) {
 }
